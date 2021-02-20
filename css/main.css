@@ -1,0 +1,29 @@
+*, ::before, ::after
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.perso_policeTitre
+{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 2em;
+}
+
+.perso_logoSize { width: 50px; }
+.perso_textShadow { text-shadow: 1px 1px 1px black; }
+.perso_shadow { box-shadow: 0 2px 15px black; }
+.perso_ColorBleuLogo { color: #54E2EE !important; }
+.perso_PublicationArticle { color: #446182 }
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #fff !important;
+    font-size: 1.2em;
+    background-color: #262626;
+}
